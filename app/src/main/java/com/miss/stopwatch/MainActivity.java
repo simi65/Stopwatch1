@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setDisplayShowEnabled(true);
+
 
         timer = (TextView)findViewById(R.id.tvTimer);
         start = (Button)findViewById(R.id.btStart);
